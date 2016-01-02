@@ -1,12 +1,16 @@
 {
 	"manifest_version": 2,
 	"name": "Donald Dump",
-	"version": "0.1",
+	"version": "0.2",
+	"description": "Turn Trump into Dump",
 	"content_scripts": [{
 		"matches": [
 			"<all_urls>"
 		],
-		"js": ["jquery-2.1.4.min.js", "content.js"],
+		"js": ["jquery-2.1.4.min.js","content.js"],
+		"web_accessible_resources": [
+		      "animate.css"
+		],
 		"run_at": "document_end"
 	}],
 	"browser_action": {
