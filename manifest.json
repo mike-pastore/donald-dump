@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Donald Dump",
-	"version": "0.2",
+	"version": "0.3",
 	"description": "Turn Trump into Dump",
 	"content_scripts": [{
 		"matches": [
