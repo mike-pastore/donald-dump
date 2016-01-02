@@ -8,9 +8,6 @@
 			"<all_urls>"
 		],
 		"js": ["jquery-2.1.4.min.js","content.js"],
-		"web_accessible_resources": [
-		      "animate.css"
-		],
 		"run_at": "document_end"
 	}],
 	"browser_action": {
