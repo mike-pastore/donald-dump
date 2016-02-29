@@ -1,6 +1,7 @@
 var names = [
 	'Chump',
 	'Clump',
+	'Drumpf',
 	'Dump',
 	'Flump',
 	'Grump',
@@ -22,7 +23,7 @@ chrome.runtime.onMessage.addListener(
 				var width = document.images[i].width;
 				var height = document.images[i].height;
 
-				document.images[i].src = "http://lorempixel.com/" + width + "/" + height + "/cats/? " 
+				document.images[i].src = "http://lorempixel.com/" + width + "/" + height + "/cats/?" 
 				+ new Date().toString() + "";
 			}
 
